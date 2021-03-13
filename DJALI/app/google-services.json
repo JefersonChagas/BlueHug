@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1085973097296",
+    "firebase_url": "https://djalil-ba80d.firebaseio.com",
+    "project_id": "djalil-ba80d",
+    "storage_bucket": "djalil-ba80d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085973097296:android:a3723b3012fa62c27dda55",
+        "android_client_info": {
+          "package_name": "com.example.djali"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085973097296-gthf1v9ti0k7gf1mnc21lcghf2ue9sq0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.djali",
+            "certificate_hash": "5ca5f45d4991e02ca7840a567e69aa8543e0f62f"
+          }
+        },
+        {
+          "client_id": "1085973097296-uhs9knr5u0nhak96hd34foqgufcao6h3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArIKwjD7gYoUzVZIzSBs_5MQZylF-paqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085973097296-uhs9knr5u0nhak96hd34foqgufcao6h3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".Medicos.Espec_A"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/capa_tela_contato"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:foreground="@color/colorAccent"
+        android:hapticFeedbackEnabled="true"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/return_perfil_esp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-60dp"
+        android:background="#450288D1"
+        android:scaleType="centerCrop"
+        app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+    <TextView
+        android:id="@+id/return_nome_esp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dr. Alberto Rodrigues"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/return_esp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pediatra"
+        android:textAlignment="center"
+        android:textColor="#303F9F"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/return_crm_esp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CRM: 11111"
+        android:textAlignment="center"
+        android:textColor="#303F9F"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="#0288D1"
+        android:foregroundGravity="center|right|center_horizontal"
+        android:text="★★★★☆"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btComent_A"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="-50dp"
+        android:backgroundTint="#0288D1"
+        android:drawableEnd="@android:drawable/stat_notify_chat"
+        android:foregroundGravity="center|right|center_horizontal"
+        android:text="Comentários"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="WhatsApp:"
+            android:textAlignment="center"
+            android:textColor="#388E3C"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="(15) 99712-0999"
+            android:textAlignment="center"
+            android:textColor="#388E3C"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="Facebook:"
+            android:textAlignment="center"
+            android:textColor="#303F9F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:text="Dr. Alberto Oficial"
+            android:textAlignment="center"
+            android:textColor="#303F9F"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:text="E-mail:"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:text="alberto.rodrigues@gmail.com"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textSize="18sp" />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
